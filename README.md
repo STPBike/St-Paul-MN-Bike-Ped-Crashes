@@ -11,6 +11,14 @@ The main parsed dataset is accessed via `parsedData` in `index.js`.
 - Use: `npm run crash`
 - Auto-reload on save: `npm run dev`
 
+## Export to CSV
+
+- Uncomment `mod_csvExports(statData);` in `index.js`
+- Run `npm run crash`
+- CSV files will be exported to `./csvExports`
+
+## Available Data
+
 ### `parsedData.crashData`
 
 The primary list of crashes is a list of objects with the following properties:
