@@ -48,7 +48,6 @@ export default function (allData) {
   const crashData = pedDataMap.concat(bikeDataMap).sort((a, b) => b.Crash_Datetime - a.Crash_Datetime);
 
   const stats = createStats(crashData);
-  console.log(stats.statData);
 
   return {
     crashData,
