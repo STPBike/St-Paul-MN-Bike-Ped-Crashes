@@ -32,6 +32,7 @@ import mod_csvExports from "./modules/mod_csvExports.js";
     const {
       crashTypeDataByYear,
       roadTypeDataByYear,
+      severityTypeDataByYear,
       postedSpeedDataByYear,
       zipCodeDataByYear,
       genderDataByYear,
@@ -57,6 +58,7 @@ import mod_csvExports from "./modules/mod_csvExports.js";
     // Stat Data
     // console.log("crashTypeDataByYear: ", crashTypeDataByYear);
     // console.log("roadTypeDataByYear: ", roadTypeDataByYear);
+    // console.log("severityTypeDataByYear: ", severityTypeDataByYear);
     // console.log("postedSpeedDataByYear: ", postedSpeedDataByYear);
     // console.log("zipCodeDataByYear: ", zipCodeDataByYear);
     // console.log("genderDataByYear: ", genderDataByYear);

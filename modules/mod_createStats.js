@@ -16,7 +16,7 @@ export default function (allData) {
   const { roadTypes, roadTypeDataByYear } = roadTypeStats(allData);
 
   // Get Severity Types
-  const { severityTypes } = severityTypeStats(allData);
+  const { severityTypes, severityTypeDataByYear } = severityTypeStats(allData);
 
   // Get Posted Speeds
   const { postedSpeeds, postedSpeedDataByYear } = postedSpeedStats(allData);
@@ -51,6 +51,7 @@ export default function (allData) {
     statData: {
       crashTypeDataByYear,
       roadTypeDataByYear,
+      severityTypeDataByYear,
       postedSpeedDataByYear,
       zipCodeDataByYear,
       genderDataByYear,
