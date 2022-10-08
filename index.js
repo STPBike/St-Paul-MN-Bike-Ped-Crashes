@@ -1,6 +1,7 @@
 import getData from "./modules/mod_getData.js";
 import parseData from "./modules/mod_parseData.js";
 import mod_csvExports from "./modules/mod_csvExports.js";
+import mod_crashDataJSON from "./modules/mod_crashDataJSON.js";
 (async function bikePedCrashData() {
   try {
     const bikePedData = await getData().catch((err) => {
@@ -68,6 +69,9 @@ import mod_csvExports from "./modules/mod_csvExports.js";
 
     // Export CSVs
     // mod_csvExports(statData);
+
+    // Export JSON
+    // mod_crashDataJSON(crashData);
   } catch (e) {
     console.log("General error", e);
   }
