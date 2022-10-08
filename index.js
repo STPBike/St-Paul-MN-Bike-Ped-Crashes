@@ -41,7 +41,7 @@ import mod_csvExports from "./modules/mod_csvExports.js";
     } = statData;
 
     // Full Crash Data (Parsed)
-    // console.log("crashData: ", crashData);
+    console.log("crashData: ", crashData);
 
     // List Types
     // console.log("crashTypes: ", crashTypes);
@@ -57,7 +57,7 @@ import mod_csvExports from "./modules/mod_csvExports.js";
     // Stat Data
     // console.log("crashTypeDataByYear: ", crashTypeDataByYear);
     // console.log("roadTypeDataByYear: ", roadTypeDataByYear);
-    console.log("postedSpeedDataByYear: ", postedSpeedDataByYear);
+    // console.log("postedSpeedDataByYear: ", postedSpeedDataByYear);
     // console.log("zipCodeDataByYear: ", zipCodeDataByYear);
     // console.log("genderDataByYear: ", genderDataByYear);
     // console.log("ageDataByYear: ", ageDataByYear);
@@ -65,7 +65,7 @@ import mod_csvExports from "./modules/mod_csvExports.js";
     // console.log("hospitalizationDataByYear: ", hospitalizationDataByYear);
 
     // Export CSVs
-    mod_csvExports(statData);
+    // mod_csvExports(statData);
   } catch (e) {
     console.log("General error", e);
   }
