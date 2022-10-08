@@ -2,9 +2,10 @@
 
 This is a boilerplate [Node.js](https://nodejs.org/en/) app that parses data from the [St. Paul Open Data](https://information.stpaul.gov/datasets/stpaul::pedestrian-and-bike-crash-dataset-/explore?location=44.944520%2C-93.105671%2C13.03) resource.
 
-### CSV Exports
+### Exports
 
-If you just want to download the CSV files, you can find them [here](https://github.com/STPBike/St-Paul-MN-Bike-Ped-Crashes/tree/main/csvExports).
+- CSV files are [here](https://github.com/STPBike/St-Paul-MN-Bike-Ped-Crashes/tree/main/csvExports).
+- JSON full crash data export is [here](https://github.com/STPBike/St-Paul-MN-Bike-Ped-Crashes/tree/main/jsonExports)
 
 ## Crash Data
 
@@ -22,6 +23,12 @@ To export the latest data to CSV:
 - Uncomment `mod_csvExports(statData);` in `index.js`
 - Run `npm run crash`
 - CSV files will be exported to `./csvExports`
+
+## Export to JSON
+
+- Uncomment `mod_crashDataJSON(statData);` in `index.js`
+- Run `npm run crash`
+- JSON files will be exported to `./jsonExports`
 
 ## Available Data
 
